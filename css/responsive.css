@@ -1,0 +1,590 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  #bar_ico {
+    display: block !important;
+  }
+  #mySidenav {
+    display: block !important;
+  }
+  #mySidenav {
+    display: block !important;
+  }
+  .nav_menu {
+    display: none;
+  }
+  .myimg {
+    transform: translate(37%, 108%) !important;
+  }
+  #t_skill {
+    margin-left: -10px !important;
+  }
+  .design,
+  .coding,
+  .wp,
+  .db,
+  .vcs {
+    margin-top: 50%;
+    position: relative;
+    width: auto;
+  }
+  .square_d {
+    top: 23% !important;
+    left: 10% !important;
+  }
+  .grid_container img {
+    height: 150% !important;
+    width: 100% !important;
+  }
+  #skills {
+    height: 500px !important;
+  }
+  .square_c {
+    top: 24% !important;
+    left: 14% !important;
+    line-height: 28px !important;
+  }
+  #wp {
+    position: absolute;
+    top: 10px;
+    left: 16% !important;
+  }
+  .square {
+    top: 24% !important;
+    left: 7% !important;
+  }
+  #db {
+    position: absolute;
+    left: 22% !important;
+  }
+  .square_db {
+    top: 25% !important;
+    margin-left: 8% !important;
+  }
+  .square_vcs {
+    top: 25% !important;
+    left: 14% !important;
+  }
+  #projects {
+    background-color: #b7b7b7;
+    width: auto !important;
+    height: 1000px !important;
+  }
+  .filter-menu {
+    margin-bottom: 40px !important;
+  }
+  #Experience {
+    width: auto !important;
+  }
+  .timeline_box1 {
+    background-color: white;
+    height: auto !important;
+    width: 40% !important;
+    position: absolute;
+    border-radius: 10%;
+    left: 70px !important;
+    right: 0;
+    top: 312px;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+    border: none;
+    right: -31% !important;
+    cursor: pointer;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .myimg {
+    transform: translate(37%, 174%) !important;
+    width: auto !important;
+  }
+  .abt {
+    word-spacing: 7px !important;
+  }
+  .abt-desc {
+    text-transform: capitalize;
+    font-size: 15px !important;
+    font-family: "Merriweather", serif;
+    line-height: 20px;
+    word-spacing: 4px;
+    margin-top: 1%;
+    float: left;
+    word-wrap: break-word !important;
+    font-weight: bold;
+    margin-left: 0% !important;
+  }
+  #t_skill {
+    margin-top: 9% !important;
+    grid-gap: 10px !important;
+  }
+  .square_d {
+    top: 23% !important;
+    left: 13% !important;
+    padding-left: 0px !important;
+  }
+  .square_c {
+    top: 24% !important;
+    left: 18% !important;
+    line-height: 25px !important;
+    margin-left: 0% !important;
+  }
+  .square li {
+    font-size: 13.5px !important;
+  }
+  #wp {
+    position: absolute;
+    top: 10px;
+    left: 9% !important;
+  }
+  #db {
+    position: absolute;
+    left: 17% !important;
+  }
+  .square_db {
+    top: 25% !important;
+    left: 23% !important;
+  }
+  .square_vcs {
+    margin-left: 10% !important;
+  }
+  .timeline_box {
+    background-color: white;
+    height: 35%;
+    width: 40% !important;
+    position: absolute;
+    top: 28px;
+    right: 6% !important;
+    border-radius: 10%;
+  }
+  .timeline_box1 {
+    background-color: white;
+    height: auto !important;
+    width: 40% !important;
+    position: absolute;
+    border-radius: 10%;
+    left: 40px !important;
+    right: 0;
+    top: 312px;
+  }
+  .timeline_square1 {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 266px !important;
+    top: 27px !important;
+    transform: rotate(45deg);
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+    border: none;
+    right: -42% !important;
+    cursor: pointer;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .myimg {
+    transform: translate(37%, 250%) !important;
+    width: 100% !important;
+  }
+  #skills {
+    margin-top: 15px;
+    background-color: #ddc6eb;
+    width: 100% !important;
+    height: 890px !important;
+    float: left;
+  }
+  .design,
+  .coding,
+  .wp,
+  .db,
+  .vcs {
+    margin-top: 30% !important;
+    position: relative;
+    width: auto !important;
+  }
+  #t_skill {
+    margin-top: 9% !important;
+    grid-row-gap: 26px !important;
+  }
+  .container1 {
+    margin: auto !important;
+    display: block !important;
+    float: left !important;
+  }
+  .filter-menu li {
+    margin-bottom: 2% !important;
+    margin-right: 1% !important;
+  }
+  #Experience {
+    background-color: #d30f20;
+    background-image: linear-gradient(116deg, #d30f20 0%, #f17932 100%);
+    width: 100%;
+    height: 800px !important;
+  }
+  .timeline_bar {
+    margin: auto;
+    display: block;
+    height: 800px !important;
+    width: 10px;
+    background-color: white;
+  }
+  .exp {
+    font-size: 28px !important;
+  }
+  .timeline_box1 {
+    background-color: white;
+    height: 50% !important;
+    width: 40% !important;
+    position: absolute;
+    border-radius: 10%;
+    left: 10px !important;
+    right: 0;
+    top: 360px !important;
+  }
+  #sub_heading {
+    font-size: 1em !important;
+    text-align: center;
+  }
+  #timeline_heading {
+    color: #eb4d4b;
+    padding-top: 6px !important;
+    text-align: center !important;
+    font-family: "Merriweather", serif;
+    font-size: 1.3em !important;
+  }
+  .timeline_box {
+    background-color: white;
+    height: 40% !important;
+    width: 40% !important;
+    position: absolute;
+    top: 28px;
+    right: 2% !important;
+    border-radius: 10%;
+  }
+  .timeline_circle1 {
+    transform: translateY(1835%) !important;
+  }
+  .timeline_square1 {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 143px !important;
+    top: 27px !important;
+    transform: rotate(45deg);
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+    border: none;
+    right: -78% !important;
+    cursor: pointer;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  #desc {
+    text-align: center;
+    color: white;
+    transform: translate(-1%, 110%) !important;
+    font-size: 2.5em !important;
+    text-transform: capitalize;
+    word-spacing: 8px;
+    font-family: "Lora", serif;
+  }
+  #projects {
+    background-color: #b7b7b7;
+    width: auto !important;
+    height: 2018px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+    border: none;
+    right: -89% !important;
+    cursor: pointer;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .myimg {
+    width: 100% !important;
+  }
+  .timeline_square1 {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 124px !important;
+    top: 27px !important;
+    transform: rotate(45deg);
+  }
+  .timeline_box1 {
+    background-color: white;
+    height: 53% !important;
+    width: 40% !important;
+    position: absolute;
+    border-radius: 10%;
+    left: 10px !important;
+    right: 0;
+    top: 360px !important;
+  }
+  .exp {
+    font-size: 26px !important;
+  }
+  #t_skill {
+    margin-top: 9% !important;
+    grid-row-gap: 50px !important;
+  }
+  .square_c {
+    top: 24% !important;
+    left: 13% !important;
+    line-height: 28px !important;
+  }
+  #desc {
+    text-align: center;
+    color: white;
+    transform: translate(-1%, 110%) !important;
+    font-size: 2.5em !important;
+    text-transform: capitalize;
+    word-spacing: 8px;
+    font-family: "Lora", serif;
+  }
+  .grid_container img {
+    width: 100% !important;
+  }
+  #wp {
+    position: absolute;
+    top: 10px;
+    left: 5% !important;
+    font-size: 17px !important;
+  }
+  .square li {
+    font-size: 12px !important;
+    padding-top: 5px !important;
+  }
+  .square_c {
+    top: 23% !important;
+    left: 18% !important;
+    line-height: 22px !important;
+    margin-left: 0% !important;
+    font-size: 12px !important;
+  }
+  #code {
+    font-size: 17px !important;
+    top: 2% !important;
+    left: 18% !important;
+  }
+  #design {
+    font-size: 17px !important;
+    top: 2% !important;
+    left: 25% !important;
+  }
+  .square_d {
+    top: 23% !important;
+    left: 18% !important;
+    font-size: 12px !important;
+  }
+  #db {
+    position: absolute;
+    left: 15% !important;
+    font-size: 17px !important;
+  }
+  .square_db {
+    top: 25% !important;
+    left: 25% !important;
+    font-size: 12px !important;
+  }
+  .square_vcs {
+    top: 25% !important;
+    left: 14% !important;
+    font-size: 12px !important;
+  }
+  #vcs {
+    font-size: 17px !important;
+    left: 34% !important;
+  }
+  #projects {
+    background-color: #b7b7b7;
+    width: auto !important;
+    height: 1815px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .myimg {
+    transform: translate(37%, 255%) !important;
+    width: 100% !important;
+  }
+  #desc {
+    text-align: center;
+    color: white;
+    font-size: 2em !important;
+    text-transform: capitalize;
+    word-spacing: 8px;
+    font-family: "Lora", serif;
+  }
+  .name {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    word-spacing: 10px;
+    transform: translateY(30%) !important;
+    font-size: 2.5em;
+    color: #000;
+    text-shadow: 3px 3px 3px #0aa545;
+  }
+  #skills {
+    height: auto !important;
+  }
+  .grid_container img {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .grid_container {
+    grid-gap: 10px !important;
+  }
+  #t_skill {
+    margin-top: 9% !important;
+    grid-row-gap: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+  #design {
+    font-size: 20px !important;
+    top: 2% !important;
+    left: 27% !important;
+  }
+  .square_d {
+    top: 23% !important;
+    left: 23% !important;
+    font-size: 14px !important;
+  }
+  .square_c {
+    top: 20% !important;
+    left: 27% !important;
+    line-height: 22px !important;
+    margin-left: 0% !important;
+    font-size: 12px !important;
+  }
+  #code {
+    font-size: 20px !important;
+    top: 2% !important;
+    left: 26% !important;
+  }
+  #skills {
+    margin: 0px !important;
+  }
+  #wp {
+    position: absolute;
+    top: 10px;
+    left: 18% !important;
+    font-size: 20px !important;
+  }
+  .square {
+    font-size: 14px !important;
+    padding-top: 5px !important;
+    left: 20% !important;
+  }
+  #db {
+    position: absolute;
+    left: 23% !important;
+    font-size: 20px !important;
+  }
+  .square_db {
+    top: 25% !important;
+    left: 25% !important;
+    font-size: 14px !important;
+  }
+  .square_vcs {
+    top: 25% !important;
+    left: 21% !important;
+    font-size: 14px !important;
+  }
+  #vcs {
+    font-size: 20px !important;
+    left: 39% !important;
+  }
+  .exp {
+    font-size: 21px !important;
+  }
+  .timeline_box {
+    background-color: white;
+    height: auto !important;
+    width: 45% !important;
+    position: absolute;
+    top: 28px;
+    right: -1% !important;
+    border-radius: 10%;
+  }
+  #Experience {
+    height: 900px !important;
+  }
+  .timeline_bar {
+    margin: auto;
+    display: block;
+    height: 900px !important;
+    width: 10px;
+    background-color: white;
+  }
+  .timeline_box1 {
+    background-color: white;
+    height: auto !important;
+    width: 45% !important;
+    position: absolute;
+    border-radius: 10%;
+    left: -3px !important;
+    right: 0;
+    top: 430px !important;
+  }
+  #projects {
+    background-color: #b7b7b7;
+    width: auto !important;
+    height: 1590px !important;
+  }
+  .timeline_circle1 {
+    transform: translateY(2190%) !important;
+  }
+  .timeline_square1 {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 117px !important;
+    top: 27px !important;
+    transform: rotate(45deg);
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+    border: none;
+    right: -105% !important;
+    cursor: pointer;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

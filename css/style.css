@@ -1,0 +1,707 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+#head {
+  width: 100% !important;
+  height: 750px;
+  overflow-x: hidden !important;
+  background-color: #f60ba7;
+  background-image: linear-gradient(208deg, #f60ba7 0%, #f60ba7 30%, #6d0a66 66%, #340a4b 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 69%, 0 100%);
+}
+
+.name {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  word-spacing: 10px;
+  transform: translateY(70%);
+  font-size: 2.5em;
+  color: #000;
+  text-shadow: 3px 3px 3px #0aa545;
+}
+
+span {
+  color: white;
+}
+
+#desc {
+  text-align: center;
+  color: white;
+  transform: translate(-1%, 130%);
+  font-size: 3em;
+  text-transform: capitalize;
+  word-spacing: 8px;
+  font-family: "Lora", serif;
+}
+
+#mySidenav {
+  display: none;
+}
+
+/*mobile-nav*/
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 9999;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 28px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+#bar_ico {
+  float: left;
+  color: white;
+  font-size: 30px;
+  margin-left: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+ul {
+  text-align: center;
+}
+
+ul #menu {
+  display: inline-block;
+  list-style-type: none !important;
+  margin: 30px 20px 0px 20px;
+}
+
+ul #menu a {
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Merriweather", serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.hvr-underline-from-center {
+  padding-bottom: 5px !important;
+  margin: 0px !important;
+}
+
+.bar {
+  color: white;
+  margin-top: -28px !important;
+  margin-right: 11%;
+  float: right;
+}
+
+.social_ico {
+  float: right;
+  margin-top: -33px;
+  margin-right: 55px;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #385898;
+  border: 1px dashed white;
+}
+
+.circle_1, .circle_2 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+  border: 1px dashed white;
+  margin-top: -30px;
+  margin-left: 36px;
+}
+
+.circle_2 {
+  background-color: #0aa545 !important;
+  margin-left: 110% !important;
+}
+
+.fa-facebook-f, .fa-github, .fa-whatsapp {
+  line-height: 30px;
+  padding-left: 10px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fa-github {
+  padding-left: 7px !important;
+  line-height: 30px !important;
+}
+
+.fa-whatsapp {
+  padding-left: 7px !important;
+  line-height: 30px !important;
+}
+
+.myimg {
+  transform: translate(37%, 50%);
+}
+
+img {
+  width: 24%;
+}
+
+/*about section*/
+.abt, .skill, .project, .exp, .edu {
+  float: left;
+  font-family: "Lato", sans-serif;
+  color: #807c7f;
+  text-shadow: 2px 2px 3px black;
+  font-size: 2em;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  padding-bottom: 8px;
+  border-bottom: 7px solid #f06000;
+}
+
+.abt-desc {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  line-height: 24px;
+  word-spacing: 8px;
+  margin-top: 1%;
+  float: left;
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+#skills {
+  margin-top: 15px;
+  background-color: #ddc6eb;
+  width: 100%;
+  height: 600px;
+  float: left;
+}
+
+.skill {
+  border-bottom: 7px solid #f06000;
+  padding-bottom: 8px;
+}
+
+.design,
+.coding,
+.wp,
+.db,
+.vcs {
+  margin-top: 50%;
+  position: relative;
+  height: auto;
+}
+
+.design h3,
+.coding h3,
+.wp h3,
+.db h3,
+.vcs h3 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #f06000;
+}
+
+.design .square, .design .square_d, .design .square_c, .design .square_db, .design .square_vcs,
+.coding .square,
+.coding .square_d,
+.coding .square_c,
+.coding .square_db,
+.coding .square_vcs,
+.wp .square,
+.wp .square_d,
+.wp .square_c,
+.wp .square_db,
+.wp .square_vcs,
+.db .square,
+.db .square_d,
+.db .square_c,
+.db .square_db,
+.db .square_vcs,
+.vcs .square,
+.vcs .square_d,
+.vcs .square_c,
+.vcs .square_db,
+.vcs .square_vcs {
+  position: absolute;
+  top: 18%;
+  color: white;
+  left: 16%;
+  text-transform: uppercase;
+  line-height: 26px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.design .square li, .design .square_d li, .design .square_c li, .design .square_db li, .design .square_vcs li,
+.coding .square li,
+.coding .square_d li,
+.coding .square_c li,
+.coding .square_db li,
+.coding .square_vcs li,
+.wp .square li,
+.wp .square_d li,
+.wp .square_c li,
+.wp .square_db li,
+.wp .square_vcs li,
+.db .square li,
+.db .square_d li,
+.db .square_c li,
+.db .square_db li,
+.db .square_vcs li,
+.vcs .square li,
+.vcs .square_d li,
+.vcs .square_c li,
+.vcs .square_db li,
+.vcs .square_vcs li {
+  display: block;
+}
+
+.design .square_d,
+.coding .square_d,
+.wp .square_d,
+.db .square_d,
+.vcs .square_d {
+  padding-left: 14px;
+}
+
+.design .square_c,
+.coding .square_c,
+.wp .square_c,
+.db .square_c,
+.vcs .square_c {
+  margin-left: 7%;
+}
+
+.design .square_db,
+.coding .square_db,
+.wp .square_db,
+.db .square_db,
+.vcs .square_db {
+  margin-left: 20%;
+}
+
+.design .square_vcs,
+.coding .square_vcs,
+.wp .square_vcs,
+.db .square_vcs,
+.vcs .square_vcs {
+  margin-left: 14%;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 20px;
+}
+
+.grid_container img {
+  width: 100%;
+}
+
+#wp {
+  position: absolute;
+  top: 10px;
+  left: 24%;
+}
+
+#vcs {
+  position: absolute;
+  top: 10px;
+  left: 40%;
+}
+
+/*project section*/
+#projects {
+  background-color: #b7b7b7;
+  width: 100%;
+  height: 800px;
+}
+
+.project {
+  border-bottom: 7px solid #f06000;
+  padding-bottom: 8px;
+}
+
+/*portfolio filter*/
+ul {
+  list-style: none;
+}
+
+ul img {
+  max-width: 100%;
+  height: auto;
+}
+
+.filter-menu {
+  transform: translateY(45%);
+  margin-bottom: 65px !important;
+  text-transform: capitalize;
+}
+
+.filter-menu li {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #eb4d4b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.filter-menu li:hover,
+.filter-menu li.current {
+  background: #ff7979;
+}
+
+.filter-item li {
+  width: auto;
+  padding: 5px;
+  display: inline-block !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.filter-item li.active {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.filter-item li.delete {
+  width: 0%;
+  padding: 0;
+  transition: all 0.5s ease;
+}
+
+.filter-item img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-item li.active,
+  .filter-item li {
+    width: 33.33%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .filter-item li.active,
+  .filter-item li {
+    width: 25%;
+  }
+}
+
+/*experience*/
+#Experience {
+  background-color: #d30f20;
+  background-image: linear-gradient(116deg, #d30f20 0%, #f17932 100%);
+  width: 100%;
+  height: 600px;
+}
+
+.exp {
+  color: white !important;
+  border-bottom: 7px solid #b7b7b7;
+  padding-bottom: 8px;
+}
+
+/*timeline starts*/
+.timeline {
+  position: relative;
+}
+
+.timeline_bar {
+  margin: auto;
+  display: block;
+  height: 600px;
+  width: 10px;
+  background-color: white;
+}
+
+.timeline_circle, .timeline_circle1 {
+  height: 20px;
+  width: 20px;
+  margin-left: -5px;
+  transform: translateY(280%);
+  border-radius: 50%;
+  background-color: yellow;
+  border: 2px dotted black;
+}
+
+.timeline_circle1 {
+  transform: translateY(1590%);
+}
+
+.timeline_box {
+  background-color: white;
+  height: 35%;
+  width: 30%;
+  position: absolute;
+  top: 28px;
+  right: 17%;
+  border-radius: 10%;
+}
+
+.timeline_box1 {
+  background-color: white;
+  height: 35%;
+  width: 30%;
+  position: absolute;
+  border-radius: 10%;
+  left: 210px;
+  right: 0;
+  top: 312px;
+}
+
+.timeline_square {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 28px;
+  left: -10px;
+  transform: rotate(45deg);
+}
+
+.timeline_square1 {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  left: 355px;
+  top: 27px !important;
+  transform: rotate(45deg);
+}
+
+#timeline_heading, #sub_heading, #timeline_desc {
+  color: #eb4d4b;
+  padding-top: 6px !important;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Merriweather", serif;
+  font-size: 1.4em;
+}
+
+#sub_heading {
+  padding-top: 0px !important;
+  font-family: "Lora", serif !important;
+  font-size: 1.3em;
+  color: black !important;
+}
+
+#timeline_desc {
+  font-size: 14px !important;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Lato", sans-serif;
+  color: black !important;
+}
+
+/*education*/
+#education {
+  background-color: #b7b7b7;
+  width: 100%;
+  height: 750px;
+}
+
+.edu {
+  color: black !important;
+  border-bottom: 7px solid #ba7532;
+  padding-bottom: 8px;
+}
+
+/*accordion*/
+.accordion_container {
+  transform: translateY(10%);
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #ccc;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: "Lora", serif;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+  background-color: #f06000;
+  color: white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: "\02795";
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active::after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+/*table*/
+table {
+  font-family: "Merriweather", serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px dashed #ba7532;
+  text-align: left;
+  padding: 8px;
+  text-transform: capitalize;
+}
+
+/*back to top button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  z-index: 999;
+  border: none;
+  right: -23%;
+  cursor: pointer;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+/*footer or contact*/
+#contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: no-gap !important;
+}
+
+.contact_form {
+  background-color: #0aa545 !important;
+  padding: 30px;
+}
+
+.contact_form input[type="text"],
+.contact_form select,
+.contact_form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 25px;
+  resize: vertical;
+  font-family: "Lora", serif;
+}
+
+.contact_form input[type="submit"] {
+  background-color: #f06000;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Merriweather", serif;
+}
+
+.contact_form input[type="submit"]:hover {
+  background-color: #340a4b;
+}
+
+.copyright {
+  width: auto;
+  padding: 5px !important;
+  color: white;
+  font-family: "Lora", serif;
+  text-align: center;
+  background-color: #340a4b;
+}
+
+.copyright p,
+.copyright i {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=style.css.map */

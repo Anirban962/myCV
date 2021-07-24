@@ -1,0 +1,11 @@
+@mixin grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+
+@mixin button{
+    outline: none;
+    padding: 0px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
