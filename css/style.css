@@ -662,6 +662,8 @@ th {
 }
 
 .contact_form input[type="text"],
+.contact_form input[type="tel"],
+.contact_form input[type="email"],
 .contact_form select,
 .contact_form textarea {
   width: 100%;

@@ -51,7 +51,7 @@
         <div class="wrapper">
           <div class="nav_menu">
           <ul>            
-            <li id="menu"><a href="#home" class="hvr-underline-from-center">home</a></li>
+            <li id="menu"><a href="http://mycv.byethost3.com/" class="hvr-underline-from-center">home</a></li>
             <li id="menu"><a href="#about" class="hvr-underline-from-center">About</a></li>
             <li id="menu"><a href="cv/WEB DESIGNING CV.docx" download class="hvr-underline-from-center">download cv</a></li>
             <li id="menu"><a href="#skills" class="hvr-underline-from-center">skills</a></li>
@@ -427,13 +427,14 @@
           
             <form action="#" method="POST">          
               
-              <input type="text"  placeholder="Your Full Name..">         
+
+              <input type="text"  placeholder="Your Full Name.." maxlength="40" required>         
               
-              <input type="text" placeholder="Your Email Id..">
+              <input type="email" placeholder="Your Email Id.." required>
 
-              <input type="text" placeholder="Your Contact Number">            
+              <input type="tel" placeholder="Your Contact Number" maxlength="10" required>            
 
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" maxlength="400"></textarea>
 
               <input type="submit" value="Submit">
 
